@@ -1,0 +1,119 @@
+# CLAUDE.md — [PROJECT NAME]
+
+> This file is read by AI every session. Keep it under 100 lines.
+> Replace all [bracketed] placeholders. Delete annotation comments before use.
+
+---
+
+## Project Overview
+
+<!-- One-line description of what this project is and who it's for -->
+**Name:** [PROJECT NAME]
+**Stack:** [e.g., React + Vite + Tailwind / Next.js + Supabase / WordPress FSE]
+**Status:** [Active development / Maintenance / Pre-launch]
+**Repo:** [github.com/you/repo or local path]
+
+---
+
+## Session Protocol
+
+1. **Read** `memory/MEMORY.md` for current context
+2. **Check** existing docs before creating new files
+3. **Build** using project conventions below
+4. **Update** `memory/MEMORY.md` after significant work or when corrected
+
+<!-- Optional: add "Continue" pattern — start each session with "Continue" to trigger this -->
+
+---
+
+## Working Preferences
+
+### Token Efficiency
+- Use bash for bulk operations (cat, grep) instead of reading files one at a time
+- Don't create new .md files — edit existing ones
+- Batch multi-file changes: plan → read all → apply all → verify once
+
+### File Safety
+- Archive old files to `archive/` — never delete without asking
+- Use `-..delete` suffix for uncertain removals (e.g., `old-component-..delete.tsx`)
+- Ask user approval before: deleting files, force pushing, dropping tables, overwriting configs
+
+### Working Scope
+- Stay within this project folder unless explicitly told otherwise
+- Ask before accessing any file outside this project
+- Previous approval to leave scope doesn't carry to new sessions
+
+### Communication
+- State what you're about to do before doing it for large changes
+- Ask for approval on architectural decisions before implementing
+- When corrected, update `memory/MEMORY.md` Locked Preferences immediately
+
+---
+
+## Code Conventions
+
+<!-- Project-specific rules. AI will follow these every session. Be specific. -->
+
+- [e.g., TypeScript strict mode — no `any` types]
+- [e.g., Functional components only — no class components]
+- [e.g., Tailwind utility classes — no custom CSS unless no Tailwind equivalent]
+- [e.g., All API calls in `src/lib/api.ts` — nowhere else]
+- [e.g., Error messages must be user-friendly, not stack traces]
+
+<!-- Example filled in:
+- TypeScript strict mode — no `any` types
+- Functional components only, no class components
+- Tailwind only — no inline styles, no custom CSS files
+- All fetch calls go through src/lib/api.ts
+- Use React Query for server state, Zustand for client state
+-->
+
+---
+
+## Design Rules
+
+<!-- Only include this section for frontend projects. Delete if backend/CLI. -->
+
+- [e.g., No emojis as structural icons — use Lucide SVG icons]
+- [e.g., Touch targets minimum 44×44px]
+- [e.g., Mobile-first — test at 375px, 768px, 1280px]
+- [e.g., Colors via Tailwind tokens only — no raw hex values]
+- [e.g., Dark mode must work — test every component in both]
+
+---
+
+## Tools Available
+
+<!-- List scripts or tools in this project that AI should use instead of recreating -->
+
+<!-- Example:
+- `tools/export.js` — Puppeteer batch PNG export (usage: node tools/export.js)
+- `tools/db-reset.sh` — Wipes and reseeds local database
+- `tools/audit.py` — Runs accessibility audit on built HTML
+-->
+
+- [tool name] — [what it does] — [how to run]
+
+---
+
+## Pre-Delivery Checklist
+
+Before committing or declaring done:
+
+- [ ] [e.g., No `console.log` statements left in]
+- [ ] [e.g., TypeScript errors: `tsc --noEmit` passes]
+- [ ] [e.g., Tests pass: `npm test`]
+- [ ] [e.g., Mobile layout tested at 375px]
+- [ ] [e.g., `memory/MEMORY.md` updated with session summary]
+
+---
+
+## Memory Update Policy
+
+- **`memory/MEMORY.md`** — Active context. Update after each session and when corrected.
+- **`memory/[topic].md`** — Deep detail files. Create when MEMORY.md approaches 200 lines.
+- **This file** — Stable rules. Update only when the project workflow changes.
+
+---
+
+**Last Updated:** [DATE]

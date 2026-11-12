@@ -1,0 +1,100 @@
+# Memory Index — [PROJECT NAME]
+
+> Maintained by AI. Keep under 200 lines. Move details to topic files when it grows.
+> This file is read every session — keep it current, pruned, and scannable.
+
+---
+
+## Project Status
+
+<!-- Update the phase and last session summary every session -->
+**Current Phase:** [e.g., Phase 2 — Auth + Dashboard]
+**Last Session:** [DATE] — [e.g., Built login flow, wired to Supabase, left off at password reset]
+
+<!-- Phase tracking example:
+- [x] Phase 1 — Project setup, routing, design tokens
+- [ ] Phase 2 — Auth (login, register, password reset)  ← CURRENT
+- [ ] Phase 3 — Dashboard and data fetching
+- [ ] Phase 4 — Payments
+-->
+
+---
+
+## Active Work
+
+<!-- What's actually in progress right now. Keep this short — 3-6 rows max. -->
+
+| Task | Status | Notes |
+|------|--------|-------|
+| [e.g., Password reset flow] | In Progress | [e.g., Email sends, redirect broken] |
+| [e.g., Mobile nav menu] | Blocked | [e.g., Waiting on logo asset] |
+| [e.g., User profile page] | Not started | — |
+
+---
+
+## Key Decisions
+
+<!-- Decisions that affect future work. Add date so future sessions know when it was set. -->
+<!-- Don't remove these — they prevent relitigating the same decisions. -->
+
+- **[DATE]:** [e.g., Using Supabase Auth over custom JWT] — [e.g., faster to ship, already on Supabase]
+- **[DATE]:** [e.g., No Redux — using React Query + Zustand] — [e.g., simpler, fewer abstractions]
+- **[DATE]:** [e.g., Tailwind only — no CSS modules] — [e.g., decided to keep it uniform]
+
+---
+
+## Locked Preferences
+
+<!-- Rules learned from user corrections. AI reads these every session. Never violate. -->
+<!-- Add to this immediately when corrected — don't wait until end of session. -->
+
+- [e.g., 2026-04-10 — Never use `filter: brightness(0) invert(1)` on logos — makes them invisible on white]
+- [e.g., 2026-04-08 — Always ask before running database migrations]
+- [e.g., 2026-04-05 — Use `pnpm`, not `npm` or `yarn`, for this project]
+
+---
+
+## Project Map
+
+<!-- Key files and folders. Helps AI navigate without reading the whole codebase. -->
+<!-- Keep this at one level of depth — don't list every file. -->
+
+```
+[project-name]/
+├── src/
+│   ├── components/    ← Reusable UI components
+│   ├── pages/         ← Route-level page components
+│   ├── lib/           ← API calls, utilities, Supabase client
+│   └── store/         ← Zustand state stores
+├── public/            ← Static assets (favicon, OG image)
+├── memory/            ← This file + topic files
+├── CLAUDE.md          ← AI rules (read every session)
+└── tools/             ← Project scripts (see TOOLS-INDEX.md)
+```
+
+---
+
+## Topic Files
+
+<!-- Create these when MEMORY.md grows past 200 lines or when a topic needs deep detail -->
+
+<!-- Examples:
+- `memory/api-decisions.md` — Endpoint structure, auth approach, error format
+- `memory/debugging.md` — Current bugs, what was tried, what's unresolved
+- `memory/design-tokens.md` — Color palette, spacing scale, font stack
+-->
+
+- `memory/[topic].md` — [What it contains]
+
+---
+
+## Session Notes
+
+<!-- Running log — newest at top. Delete notes older than ~5 sessions. -->
+
+**[DATE]:** [e.g., Set up Supabase project, created users table, added auth context. Next: protect routes.]
+**[DATE]:** [e.g., Initialized repo, installed deps, set up Tailwind + Vite. Decided on project structure.]
+
+---
+
+**Last Updated:** [DATE]
