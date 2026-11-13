@@ -33,5 +33,3 @@ memory/
 skills/*.md
 !skills/README.md
 
-# Third-party skill repos cloned locally (install from upstream — see skills/README.md)
-skills/*/

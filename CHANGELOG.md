@@ -9,15 +9,16 @@ Format: `[version] — date — summary`
 ## [1.2.0] — 2026-11-13
 
 ### Added
+- `skills/` — 8 third-party skill packs as git submodules linking to their upstream repos
 - README section on using the protocol with local models (Ollama, LM Studio, llama.cpp) and small-context tips
 - Model conformance checklist in README for testing any model against the protocol
 - `.github/ISSUE_TEMPLATE/model_report.md` — template for sharing model test results
-- `skills/README.md` — pointers to recommended third-party skill packs (cloned from upstream, not bundled)
+- `skills/README.md` — guide to the linked skill packs and how to pull them
 
 ### Changed
 - `README.md` — restructured for public release; added "Who this is for" and local-model adapter table
 - `patterns/design-reference.md` — example made generic
-- `.gitignore` — ignores local skill clones, `memory/`, and private project docs
+- `.gitignore` — ignores `memory/` and private project docs
 
 ### Removed
 - Project-specific skill catalogs from `skills/`

@@ -1,0 +1,32 @@
+[submodule "skills/banana-claude"]
+	path = skills/banana-claude
+	url = https://github.com/AgriciDaniel/banana-claude.git
+	ignore = dirty
+[submodule "skills/claude-office-skills"]
+	path = skills/claude-office-skills
+	url = https://github.com/tfriedel/claude-office-skills.git
+	ignore = dirty
+[submodule "skills/claude-skills"]
+	path = skills/claude-skills
+	url = https://github.com/alirezarezvani/claude-skills.git
+	ignore = dirty
+[submodule "skills/code-review-graph"]
+	path = skills/code-review-graph
+	url = https://github.com/tirth8205/code-review-graph.git
+	ignore = dirty
+[submodule "skills/frontend-slides"]
+	path = skills/frontend-slides
+	url = https://github.com/zarazhangrui/frontend-slides.git
+	ignore = dirty
+[submodule "skills/humanizer"]
+	path = skills/humanizer
+	url = https://github.com/blader/humanizer.git
+	ignore = dirty
+[submodule "skills/shots-for-agents"]
+	path = skills/shots-for-agents
+	url = https://github.com/Kalypsokichu-code/shots-for-agents.git
+	ignore = dirty
+[submodule "skills/ui-ux-pro-max-skill"]
+	path = skills/ui-ux-pro-max-skill
+	url = https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git
+	ignore = dirty

@@ -41,7 +41,7 @@ The model doesn't need to know *why* the patterns work. It only needs the rules.
 ## Quick start (5 minutes)
 
 ```bash
-git clone https://github.com/aprch/memory-first-ai-protocol.git
+git clone https://github.com/aprch/memory-first-ai-protocol.git    # add --recurse-submodules to include skills/
 cp memory-first-ai-protocol/templates/CLAUDE.md.template /path/to/your/project/CLAUDE.md
 mkdir -p /path/to/your/project/memory
 ```
@@ -191,7 +191,9 @@ The *why* behind each rule. [patterns/README.md](patterns/README.md) has a "whic
 - **[Multi-Developer SaaS](examples/multi-dev-saas/)** — team setup with shared memory artifacts
 - **[Academic Course Project](examples/academic-course-project/)** — multi-session research and writing
 
-Optional add-ons: [skills/](skills/README.md) lists third-party skill packs that pair well with the protocol.
+## Skills (linked from upstream)
+
+[`skills/`](skills/README.md) links to 8 third-party skill packs that pair well with the protocol: Humanizer, Frontend Slides, UI/UX Pro Max, Office Skills, Code Review Graph, and others. Each one is a git submodule pointing at its author's repo, so this repo carries no copies, and you always get the original source. Clone with `--recurse-submodules` to pull them in.
 
 ---
 

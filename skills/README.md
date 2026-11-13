@@ -1,14 +1,33 @@
 # Skills
 
-Third-party skill packs that pair well with the Memory-First protocol. They are **not bundled** here — clone them from upstream so you get updates and respect each project's license.
+Third-party skill packs that pair well with the Memory-First protocol. Each folder here is a **git submodule**: a pointer to the original author's repo at a pinned commit. No code is copied into this repo; on GitHub, each folder links straight to its upstream project. Credit, issues, and licenses belong to those authors.
+
+### Get the skills
+
+Clone everything, skills included:
 
 ```bash
-cd your-project
-mkdir -p skills && cd skills
-git clone https://github.com/blader/humanizer.git
+git clone --recurse-submodules https://github.com/aprch/memory-first-ai-protocol.git
 ```
 
-`skills/*/` is git-ignored in this repo, so local clones never get committed by accident.
+Already cloned without them? Pull all of them, or only the ones you want:
+
+```bash
+git submodule update --init                     # all skills
+git submodule update --init skills/humanizer    # just one
+```
+
+Update to the latest upstream versions:
+
+```bash
+git submodule update --remote
+```
+
+Want one in your own project instead? Clone it from upstream directly:
+
+```bash
+git clone https://github.com/blader/humanizer.git your-project/skills/humanizer
+```
 
 | Skill | What it does | Upstream |
 |---|---|---|
